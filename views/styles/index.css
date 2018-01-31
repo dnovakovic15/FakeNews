@@ -17,7 +17,7 @@ body{
     float: left;
     text-align: center;
     vertical-align: center;
-    padding: 18px 25px;
+    padding: 9px 25px;
 }
 
 .nav-element{
@@ -64,6 +64,23 @@ btn{
 }
 
 .save{
+    background-color: #439a46;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: red !important;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.note{
     background-color: #439a46;
     box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
     padding: 5px;
